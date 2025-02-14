@@ -16,8 +16,8 @@ btnYesEl.addEventListener("click", () => {
 });
 
 btnNoEl.addEventListener("mouseover", () => {
-  const randomNum1 = Math.trunc(Math.random() * 90) + 1;
-  const randomNum2 = Math.trunc(Math.random() * 90) + 1;
+  const randomNum1 = Math.trunc(Math.random() * 80) + 1;
+  const randomNum2 = Math.trunc(Math.random() * 80) + 1;
 
   btnNoEl.classList.add("position");
 
